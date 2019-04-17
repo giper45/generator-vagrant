@@ -11,6 +11,18 @@ var linux = module.exports = (function () {
         message: 'Select the Box Image',
         default: 3,
         choices: [{
+            name: 'ubuntu/bionic64 - Official Ubuntu 18.04 LTS 64-bit box',
+            value: 'ubuntu/xenial64'
+        },{
+            name: 'ubuntu/bionic32 - Official Ubuntu 18.04 LTS 32-bit box',
+            value: 'ubuntu/xenial64'
+        },{
+            name: 'ubuntu/xenial64 - Official Ubuntu 16.04 LTS 64-bit box',
+            value: 'ubuntu/xenial64'
+        },{
+            name: 'ubuntu/xenial32 - Official Ubuntu 16.04 LTS 32-bit box',
+            value: 'ubuntu/trusty64'
+        },{
             name: 'ubuntu/trusty64 - Official Ubuntu Server 14.04 LTS (Trusty Tahr) builds',
             value: 'ubuntu/trusty64'
         },{
